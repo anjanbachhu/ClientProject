@@ -56,7 +56,7 @@ object ExcuteTests{
   val _MixItems = Cola :: Coffee :: CheeseSandwich :: Nil
   val _MixItems_bill = Utils.Common.bigDecimalFormatter(Cola.MenuItemPrice + Coffee.MenuItemPrice + CheeseSandwich.MenuItemPrice + SteakSandwich.MenuItemPrice)
 
-  // Zero service charge
+  // Zero service charge_
   val _AllItemsDrinks = Cola :: Cola :: Coffee :: Coffee :: Nil
   val _AllItemsDrinksTotal = Cola.MenuItemPrice + Cola.MenuItemPrice + Coffee.MenuItemPrice + Coffee.MenuItemPrice
 
